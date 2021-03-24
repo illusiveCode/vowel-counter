@@ -2,7 +2,7 @@ let count = document.getElementById("vowelCount");
 
 function countVowel(str) {
   str = str.toLowerCase();
-  let vowArr = ["a", "e", "i", "o", "u"],
+  let vowArr = ["a", "e", "i", "o", "u", "y", "w"],
     counter = 0;
 
   for (let letter of str) {
