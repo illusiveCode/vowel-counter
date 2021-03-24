@@ -8,6 +8,9 @@ function countVowel(str) {
   for (let letter of str) {
     if (vowArr.includes(letter)) {
       counter++;
+      vowelCount.classList.add("blink");
+    } else {
+      vowelCount.classList.remove("blink");
     }
   }
   vowelCount.innerHTML = counter;
