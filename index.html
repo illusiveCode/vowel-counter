@@ -15,7 +15,11 @@
   <body>
     <div class="box">
       <h4>Vowel Counter</h4>
-      <textarea name="" id="textArea"></textarea>
+      <textarea
+        name=""
+        id="textArea"
+        onkeyup="countVowel(this.value);"
+      ></textarea>
       <p>Vowel <span id="vowelCount">0</span></p>
     </div>
     <script src="main.js"></script>
