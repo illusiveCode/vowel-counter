@@ -108,6 +108,7 @@ body {
 
   .box h4 {
     font-size: 1.5rem;
+    text-align: center;
   }
   .box textarea {
     width: 100% !important;
